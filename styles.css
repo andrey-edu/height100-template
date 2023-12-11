@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%; /* !!! */
+    height: 100vh; /* !!! */
+    display: flex; /* !!! */
+    flex-direction: column; /* !!! */
+
+}
+
+.tab_closed {
+    background-color: blueviolet;
+    flex-shrink: 0; /* !!! */
+    color: white;
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+
+.tab_opened {
+    background-color: rgb(127, 197, 255);
+    height: 100%; /* !!! */
+}
